@@ -1,0 +1,24 @@
+.latestArticles {
+  text-align: center;
+  padding-top: 6em;
+  background: var(--lightGray);
+
+  &__item {
+    //border: 1px solid green;
+    border-radius: .5em;
+    overflow: hidden;
+    text-align: left;
+    background: var(--white);
+    padding: 0 2em;
+    img {
+      width: 100%;
+      object-fit: cover;
+      margin: 0 -2em;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-row-gap: 3em;
+  }
+}

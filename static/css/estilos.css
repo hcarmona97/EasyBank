@@ -1,0 +1,111 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2em 1.7em;
+}
+
+.hero {
+  text-align: center;
+  padding-bottom: 6em;
+}
+.hero .copy {
+  margin-bottom: 2.2em;
+}
+.hero__image {
+  height: 300px;
+  margin: 0 -1.5em;
+  background: url("../images/image-mockups.png") center bottom no-repeat, url("../images/bg-intro-mobile.svg") center no-repeat;
+  background-size: 345px, cover;
+  margin-bottom: 1.5em;
+}
+
+.menu {
+  width: 30px;
+  background: url("../images/icon-hamburger.svg") center no-repeat;
+}
+
+.why {
+  text-align: center;
+  background: var(--gray);
+  padding-top: 6em;
+  padding-bottom: 3em;
+}
+.why .copy {
+  margin-bottom: 3.7em;
+  font-size: 1.05em;
+}
+.why__item .copy {
+  margin-bottom: 2em;
+}
+.why__item img {
+  margin-bottom: 1.5em;
+}
+
+.latestArticles {
+  text-align: center;
+  padding-top: 6em;
+  background: var(--lightGray);
+}
+.latestArticles__item {
+  border-radius: 0.5em;
+  overflow: hidden;
+  text-align: left;
+  background: var(--white);
+  padding: 0 2em;
+}
+.latestArticles__item img {
+  width: 100%;
+  object-fit: cover;
+  margin: 0 -2em;
+}
+.latestArticles__grid {
+  display: grid;
+  grid-row-gap: 3em;
+}
+
+:root {
+  --grayBlue: hsl(233, 8%, 62%);
+  --gray: hsl(220, 16%, 96%);
+  --lightGray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --darkBlue: hsl(233, 26%, 24%);
+  --limeGreen: hsl(136, 65%, 51%);
+  --brightCyan: hsl(192, 70%, 51%);
+  font-size: 14px;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  margin: 0;
+  color: var(--grayBlue);
+}
+
+.copy {
+  line-height: 1.7em;
+}
+
+.wrapper {
+  padding: 0 1.5em;
+}
+
+.title__h1, .title__h2 {
+  font-size: 2.8em;
+  color: var(--darkBlue);
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 0.6em;
+}
+.title__h2 {
+  font-size: 1.6em;
+}
+
+.button {
+  border: none;
+  padding: 1em 2.3em;
+  font-size: 1em;
+  border-radius: 1.5em;
+  color: var(--white);
+  background-image: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
+}
+
+/*# sourceMappingURL=estilos.css.map */
