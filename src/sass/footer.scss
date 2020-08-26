@@ -1,0 +1,33 @@
+.footer {
+  text-align: center;
+  border: 1px solid blue;
+  background: var(--darkBlue);
+  color: var(--white);
+  padding: 2em 0;
+
+  svg {
+    display: block;
+    margin: auto auto 2em;
+  }
+
+  a {
+    display: block;
+    color: var(--gray);
+    text-decoration: none;
+    margin-bottom: 1.5em;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  &__button {
+    padding: 1.5em;
+  }
+
+  &__copy {
+    color: var(--grayBlue);
+  }
+}
