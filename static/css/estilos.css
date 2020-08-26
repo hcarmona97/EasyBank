@@ -77,7 +77,6 @@
 
 .footer {
   text-align: center;
-  border: 1px solid blue;
   background: var(--darkBlue);
   color: var(--white);
   padding: 2em 0;
