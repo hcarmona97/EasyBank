@@ -17,8 +17,9 @@
   }
 
   &__social {
-    display: flex;
-    justify-content: center;
+    display: inline-grid;
+    grid-template-columns: repeat(5, auto);
+    grid-column-gap: .8em;
     margin-bottom: 0;
   }
 

@@ -92,8 +92,9 @@
   margin-bottom: 1.5em;
 }
 .footer__social {
-  display: flex;
-  justify-content: center;
+  display: inline-grid;
+  grid-template-columns: repeat(5, auto);
+  grid-column-gap: 0.8em;
   margin-bottom: 0;
 }
 .footer__button {
@@ -159,36 +160,36 @@ body {
 }
 
 .icon__facebook {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   display: inline-flex;
   background-repeat: no-repeat;
   background-image: url("../images/icon-facebook.svg");
 }
 .icon__youtube {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   display: inline-flex;
   background-repeat: no-repeat;
   background-image: url("../images/icon-youtube.svg");
 }
 .icon__twitter {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   display: inline-flex;
   background-repeat: no-repeat;
   background-image: url("../images/icon-twitter.svg");
 }
 .icon__pinterest {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   display: inline-flex;
   background-repeat: no-repeat;
   background-image: url("../images/icon-pinterest.svg");
 }
 .icon__instagram {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   display: inline-flex;
   background-repeat: no-repeat;
   background-image: url("../images/icon-instagram.svg");
