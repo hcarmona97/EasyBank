@@ -18,4 +18,34 @@
       margin-bottom: 1.5em;
     }
   }
+  @media screen and (min-width: 768px) {
+    padding-bottom: 6em;
+    .wrapper {
+      text-align: left;
+      padding: 0 3em;
+
+      .copy {
+        max-width: 530px;
+      }
+    }
+
+    &__grid {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__item {
+      max-width: 240px;
+      padding-right: 4em;
+
+      img {
+        margin-bottom: 2.3em;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .wrapper {
+      padding: 0 1.5em;
+    }
+  }
 }

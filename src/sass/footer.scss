@@ -30,4 +30,48 @@
   &__copy {
     color: var(--grayBlue);
   }
+
+  @media screen and (min-width: 768px) {
+    padding: 0;
+    .wrapper {
+      display: grid;
+      grid-template-areas: "izq centro der ultimo";
+      grid-template-columns: 180px 130px 130px 1fr;
+      grid-gap: 50px;
+      padding: 3em;
+    }
+
+    &__izq {
+      grid-area: izq;
+      svg {
+        margin-bottom: 2.5em;
+        margin-left: 0;
+      }
+    }
+
+    &__centro {
+      grid-area: centro;
+    }
+
+    &__der {
+      grid-area: der;
+    }
+
+    &__ultimo {
+      grid-area: ultimo;
+      justify-self: end;
+      .footer__button {
+        text-align: right;
+        padding: 0;
+        padding-bottom: .8em;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .wrapper {
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+    }
+  }
 }
